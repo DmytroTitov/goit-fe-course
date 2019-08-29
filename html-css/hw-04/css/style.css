@@ -35,13 +35,12 @@ img {
 
 /* header navigation */
 .header {
-  height: 164px;
+  padding: 37px 0 104px 0;
 }
 
 .logo {
   display: inline-block;
   margin: 0;
-  padding-top: 37px;
 }
 
 .logo-link {
@@ -69,7 +68,7 @@ img {
 .nav-list {
   float: right;
   margin: 0;
-  padding-top: 46px;
+  padding: 0;
   list-style: none;
 }
 
@@ -101,7 +100,7 @@ img {
 /* main products */
 
 .sections-title,
-.article-title {
+.news-article-title {
   margin: 0;
   font-family: "Roboto", "Arial", sans-serif;
   font-size: 48px;
@@ -118,7 +117,7 @@ img {
 }
 
 .sections-title::after,
-.article-title::after {
+.news-article-title::after {
   content: "";
   display: block;
   width: 164px;
@@ -191,13 +190,13 @@ img {
 
 /* news */
 
-.article-title {
+.news-article-title {
   padding-bottom: 80px;
 }
 
 .news-list {
-  margin: 0;
-  padding: 0 0 82px 0;
+  margin: 0 0 82px 0;
+  padding: 0;
 }
 
 .news-item {
