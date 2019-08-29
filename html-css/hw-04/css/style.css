@@ -190,12 +190,16 @@ img {
 
 /* news */
 
+.news {
+  margin-bottom: 82px;
+}
+
 .news-article-title {
   padding-bottom: 80px;
 }
 
 .news-list {
-  margin: 0 0 82px 0;
+  margin: 0;
   padding: 0;
 }
 
