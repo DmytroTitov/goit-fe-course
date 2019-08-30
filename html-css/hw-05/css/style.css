@@ -24,8 +24,8 @@ body {
 
 img {
   display: block;
-  width: 100%;
-  height: auto;
+  /* width: 100%; */
+  /* height: auto; */
 }
 
 .container {
@@ -103,98 +103,48 @@ img {
 
 /* slider */
 
-.slider {
-  height: 601px;
-  background-color: grey;
+.slider-wrapper {
+  position: relative;
 }
 
-/* main products */
-
-/* .sections-title,
-.news-article-title {
-  margin: 0;
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 32px;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  text-align: center;
+.slider-img {
+  height: 602px;
+  width: 100%;
+  object-fit: cover;
 }
 
-.sections-title {
-  margin-bottom: 92px;
-  color: #515151;
-}
-
-.sections-title::after,
-.news-article-title::after {
-  content: "";
-  display: block;
-  width: 164px;
-  height: 7px;
-  margin: 32px auto 0;
-  background-color: #1abc9c;
-}
-
-.products {
-  margin-bottom: 105px;
-}
-
-.products-list {
-  padding: 0;
+.slider-description {
+  position: absolute;
+  top: 0;
+  transform: translateX(25%);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+  height: 602px;
   margin: 0;
 }
-.products-item {
-  float: left;
-  width: 255px;
-  list-style: none;
-  background-color: #e9f0fd;
-}
 
-.products-item:not(:nth-child(4n)) {
-  margin-right: 30px;
-}
-
-.products-item:not(:nth-last-child(-n + 4)) {
-  margin-bottom: 30px;
-}
-
-.products-item:hover .products-name {
-  background-color: #1abc9c;
-  transition-duration: 0.3s;
-}
-
-.products-item:hover .products-price {
-  background-color: #7fd9c7;
-  transition-duration: 0.3s;
-}
-
-.products-name,
-.products-price {
-  height: 40px;
-  margin: 0;
-  font-family: "Roboto", "Arial", sans-serif;
-  font-size: 18px;
-  font-weight: 900;
-  color: #fff;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-}
-
-.products-name {
-  float: left;
-  width: 201px;
-  padding-left: 14px;
-  line-height: 40px;
-  color: #fff;
-  background-color: #323232;
-}
-
-.products-price {
-  float: right;
-  width: 54px;
-  padding: 4px 12px;
-  line-height: 32px;
-  background-color: #8c8c8c;
+/* .slider-wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 602px;
+  border: 2px solid green;
 } */
+
+.slider-ctrl {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 104px;
+  height: 104px;
+  padding: 0;
+  background-color: #1abc9c;
+  border: none;
+}
+
+.slider-ctrl-prev {
+  left: 0;
+}
+
+.slider-ctrl-next {
+  right: 0;
+}
