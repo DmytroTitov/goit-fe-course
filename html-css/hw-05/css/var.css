@@ -1,0 +1,11 @@
+:root {
+  --main-ff: "Open Sans", "Arial", sans-serif;
+  --semi-ff: "Roboto", "Arial", sans-serif;
+  --main-fz: 14px;
+  --logo-color: #555252;
+  --active-color: #1abc9c;
+  --light-color: #fff;
+  --main-bg-color: #e9f0fd;
+  --footer-bg-color: #323232;
+  --overlay-bg-color: rgba(0, 0, 2, 0.55);
+}
