@@ -1,0 +1,11 @@
+:root {
+  --main-ff: "Roboto", "Arial", sans-serif;
+  --semi-ff: "Montserrat", "Arial", sans-serif;
+  --title-ff: "Kaushan Script", cursive;
+  --main-fz: 14px;
+  --semi-fz: 15px;
+  --main-color: #95e1d3;
+  --hallmark-color: #f38181;
+  --title-color: #333333;
+  --text-color: #999999;
+}
