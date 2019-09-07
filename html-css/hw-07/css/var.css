@@ -1,0 +1,16 @@
+:root {
+  --logo-ff: "Allura", "Comic Sans MS", cursive;
+  --nav-ff: "Montserrat", "Arial", sans-serif;
+  --title-ff: "MontserratBold", "Arial", sans-serif;
+  --subtitle-ff: "Alegreya", "Times New Roman", serif;
+  --text-ff: "Roboto Slab", "Times New Roman", serif;
+  --main-fz: 14px;
+  --title-fz: 40px;
+  --subtitle-fz: 16px;
+  --services-title-fz: 18px;
+  --hallmark-color: #fed136;
+  --title-color: #222;
+  --light-color: #fff;
+  --text-color: #777;
+  --placeholder-color: #bbb;
+}
