@@ -123,7 +123,7 @@ img {
 
 .services-title,
 .team-title {
-  padding-bottom: 12px;
+  padding-bottom: 63px;
   font-family: var(--title-ff);
   font-size: 24px;
   font-weight: 400;
@@ -131,7 +131,8 @@ img {
 
 .services-subtitle,
 .team-subtitle {
-  padding-bottom: 63px;
+  display: block;
+  padding-top: 12px;
   font-family: var(--semi-ff);
   font-size: 30px;
   font-weight: 700;
@@ -229,10 +230,10 @@ img {
 /* team-section */
 
 .team {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
-.team-subtitle {
+.team-title {
   padding-bottom: 40px;
 }
 
@@ -265,14 +266,13 @@ img {
   display: block;
 }
 
-.list-item__figure,
 .team-name,
 .team-occupation {
   padding: 0;
   margin: 0;
 }
 
-.figure-wrapper {
+.team-wrapper {
   position: relative;
   margin-bottom: 28px;
   background-color: var(--main-color);
