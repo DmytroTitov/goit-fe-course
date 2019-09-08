@@ -38,7 +38,7 @@ img {
 }
 
 .logo {
-  margin: 0 0 0 7px;
+  margin: 0;
 }
 
 .logo-link {
@@ -69,10 +69,6 @@ img {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.nav-item:first-child {
-  margin-left: 6px;
 }
 
 .nav-link {
