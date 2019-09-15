@@ -2,15 +2,8 @@
   --title-ff: "Montserrat", "Arial", sans-serif;
   --text-ff: "Roboto", "Times New Roman", serif;
   --main-fz: 14px;
-
   --light-color: #fff;
-
-  --title-fz: 40px;
-  --subtitle-fz: 16px;
-  --services-title-fz: 18px;
-  --hallmark-color: #fed136;
-  --title-color: #222;
-  --light-color: #fff;
-  --text-color: #777;
-  --placeholder-color: #bbb;
+  --title-color: #333;
+  --text-color: #666;
+  --hallmark-color: #ff4e50;
 }
