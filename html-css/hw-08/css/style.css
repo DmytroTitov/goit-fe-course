@@ -163,10 +163,10 @@ body {
   padding-bottom: 12px;
 }
 
-.partners-list,
-.partners-list__item:not(:last-child) {
+.partners-list {
   margin-bottom: 26px;
 }
+
 .partners-list {
   margin-top: 0;
   padding: 0;
