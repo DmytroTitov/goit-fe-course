@@ -1,0 +1,38 @@
+.sitehead-banner {
+  padding-bottom: 230px;
+  text-align: center;
+}
+
+.sitehead-banner__title,
+.sitehead-banner__btn {
+  font-family: var(--semi-ff);
+  text-transform: uppercase;
+}
+
+.sitehead-banner__title {
+  margin-bottom: 120px;
+  font-size: 150px;
+  line-height: 140px;
+}
+
+.sitehead-banner__pretitle {
+  font-family: var(--title-ff);
+  font-size: 72px;
+  line-height: 1.2;
+  text-transform: none;
+}
+
+.sitehead-banner__btn {
+  display: inline-block;
+  padding: 14px 32px;
+  text-decoration: none;
+  border: 3px solid var(--light-color);
+  -webkit-transition: color 200ms linear, border 200ms linear;
+  -o-transition: color 200ms linear, border 200ms linear;
+  transition: color 200ms linear, border 200ms linear;
+}
+.sitehead-banner__btn:hover,
+.sitehead-banner__btn:focus {
+  color: var(--hallmark-color);
+  border: 3px solid var(--hallmark-color);
+}

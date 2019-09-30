@@ -7,8 +7,9 @@
   --main-color: #95e1d3;
   --hallmark-color: #fce38a;
   --accent-color: #f38181;
-  --title-color: #333333;
-  --text-color: #999999;
+  --title-color: #333;
+  --text-color: #999;
+  --light-color: #fff;
   --gradient: linear-gradient(
     to top,
     rgba(251, 226, 135, 0.9),

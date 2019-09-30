@@ -1,0 +1,65 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--main-ff);
+  font-size: var(--main-fz);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sitehead-logo,
+.sitehead-banner__pretitle,
+.sitehead-banner__pretitle--break,
+.sitehead-nav__link,
+.sitehead-nav__btn--cart,
+.sitehead-nav__btn--glass,
+.sitehead-nav__link:hover::after,
+.sitehead-nav__link:focus::after,
+.services__title--break,
+.team__title--break,
+.services-list__item::before,
+.services__title--break::after,
+.team__title--break::after {
+  display: block;
+}
+
+.sitehead-banner__title,
+.sitehead-nav__list,
+.services__title,
+.services__title--break,
+.services-list,
+.services-list__title,
+.services-list__text,
+.team__title,
+.team__title--break {
+  margin: 0;
+}
+
+.sitehead-logo,
+.sitehead-logo:link,
+.sitehead-logo:visited,
+.sitehead-logo:active,
+.sitehead-banner__title,
+.sitehead-banner__pretitle,
+.sitehead-banner__btn {
+  color: var(--light-color);
+}

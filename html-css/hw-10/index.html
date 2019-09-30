@@ -5,44 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>MoGo</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="sitehead-wrapper">
-      <div class="sitehead">
+      <div class="sitehead-overlay">
         <!-- header -->
-        <header class="site-header container">
-          <h1 class="site-logo">
-            <a class="site-logo__link" href="index.html">MoGo</a>
-          </h1>
-          <nav class="site-nav">
-            <ul class="site-nav__list">
-              <li class="site-nav__item">
-                <a href="#" class="site-nav__link">about</a>
+        <header class="sitehead-header container">
+          <a class="sitehead-logo" href="index.html">MoGo</a>
+          <nav class="sitehead-nav">
+            <ul class="sitehead-nav__list">
+              <li class="sitehead-nav__item">
+                <a href="#" class="sitehead-nav__link">about</a>
               </li>
-              <li class="site-nav__item">
-                <a href="#" class="site-nav__link">service</a>
+              <li class="sitehead-nav__item">
+                <a href="#" class="sitehead-nav__link">service</a>
               </li>
-              <li class="site-nav__item">
-                <a href="#" class="site-nav__link">work</a>
+              <li class="sitehead-nav__item">
+                <a href="#" class="sitehead-nav__link">work</a>
               </li>
-              <li class="site-nav__item">
-                <a href="#" class="site-nav__link">blog</a>
+              <li class="sitehead-nav__item">
+                <a href="#" class="sitehead-nav__link">blog</a>
               </li>
-              <li class="site-nav__item">
-                <a href="#" class="site-nav__link">contact</a>
+              <li class="sitehead-nav__item">
+                <a href="#" class="sitehead-nav__link">contact</a>
               </li>
-              <li class="site-nav__item">
-                <button type="button" class="shopping-btn">
-                  <svg class="shopping-btn__img">
+              <li class="sitehead-nav__item">
+                <button type="button" class="sitehead-nav__btn">
+                  <svg class="sitehead-nav__btn--cart">
                     <use href="./img/icons/icons-sprite.svg#icon-cart"></use>
                   </svg>
                 </button>
               </li>
               <li class="site-nav__item">
-                <button type="button" class="search-btn">
-                  <svg class="search-btn__img">
+                <button type="button" class="sitehead-nav__btn">
+                  <svg class="sitehead-nav__btn--glass">
                     <use href="./img/icons/icons-sprite.svg#icon-glass"></use>
                   </svg>
                 </button>
@@ -50,76 +47,73 @@
             </ul>
           </nav>
         </header>
-        <section class="site-banner container">
-          <h1 class="site-banner__title">
-            <span class="site-banner__pretitle">Creative Template</span>
-            welcome<span class="site-banner__block"></span>to mogo
+        <!-- site-banner -->
+        <section class="sitehead-banner container">
+          <h1 class="sitehead-banner__title">
+            <span class="sitehead-banner__pretitle">Creative Template</span>
+            welcome<span class="sitehead-banner__pretitle--break"></span>to mogo
           </h1>
-          <a href="#" class="site-banner__btn">learn more</a>
+          <a href="#" class="sitehead-banner__btn">learn more</a>
         </section>
       </div>
     </div>
     <main>
       <!-- services-section -->
       <section class="services container">
-        <h2 class="services-title">
-          We work with <span class="services-subtitle">amazing services</span>
+        <h2 class="services__title">
+          We work with
+          <span class="services__title--break">amazing services</span>
         </h2>
         <ul class="services-list">
-          <li class="services-item icon-clock">
-            <h3 class="services-item__title">
+          <li class="services-list__item services-list__item--alarm">
+            <h3 class="services-list__title">
               photography
             </h3>
-            <p class="services-item__text">
+            <p class="services-list__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor.
             </p>
           </li>
-
-          <li class="services-item icon-graph">
-            <h3 class="services-item__title">web design</h3>
-            <p class="services-item__text">
+          <li class="services-list__item services-list__item--lineGraph">
+            <h3 class="services-list__title">web design</h3>
+            <p class="services-list__text">
               Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor.
             </p>
           </li>
-
-          <li class="services-item icon-pc">
-            <h3 class="services-item__title">creativity</h3>
-            <p class="services-item__text">
+          <li class="services-list__item services-list__item--computer">
+            <h3 class="services-list__title">creativity</h3>
+            <p class="services-list__text">
               Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor.
             </p>
           </li>
-
-          <li class="services-item icon-book">
-            <h3 class="services-item__title">seo</h3>
-            <p class="services-item__text">
+          <li class="services-list__item services-list__item--book">
+            <h3 class="services-list__title">seo</h3>
+            <p class="services-list__text">
               Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
             </p>
           </li>
-
-          <li class="services-item icon-house">
-            <h3 class="services-item__title">css/html</h3>
-            <p class="services-item__text">
+          <li class="services-list__item services-list__item--home">
+            <h3 class="services-list__title">css/html</h3>
+            <p class="services-list__text">
               Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.
             </p>
           </li>
-          <li class="services-item icon-square">
-            <h3 class="services-item__title">digital</h3>
-            <p class="services-item__text">
+          <li class="services-list__item services-list__item--square">
+            <h3 class="services-list__title">digital</h3>
+            <p class="services-list__text">
               Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
             </p>
           </li>
         </ul>
       </section>
-
       <!-- team-section -->
       <section class="team container">
-        <h2 class="team-title">
-          Who we are <span class="team-subtitle">Meet our team</span>
+        <h2 class="team__title">
+          Who we are <span class="team__title--break">Meet our team</span>
         </h2>
-        <p class="team-describe">
+        <p class="team__describe">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -127,97 +121,133 @@
         </p>
         <ul class="team-list">
           <li class="team-list__item">
-            <div class="team-wrapper">
-              <div class="team-img">
+            <div class="team-list__wrapper">
+              <div class="team-list__wrapper-image">
                 <img
-                  class="team-wrapper-image"
+                  class="team-list__img"
                   src="./img/matthew.jpg"
                   alt="Mattew Dix"
                   width="380"
                   height="470"
                 />
-                <div class="img-overlay">
+                <div class="team-list__overlay">
                   <ul class="social-list">
                     <li class="social-list__item">
-                      <a class="list-item__link icon-facebook" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--facebook"
+                        href="#"
+                      ></a>
                     </li>
                     <li class="social-list__item">
-                      <a class="list-item__link icon-twitter" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--twitter"
+                        href="#"
+                      ></a>
                     </li>
                     <li class="social-list__item">
-                      <a class="list-item__link icon-pinterest" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--pinterest"
+                        href="#"
+                      ></a>
                     </li>
                     <li class="social-list__item">
-                      <a class="list-item__link icon-instagram" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--instagram"
+                        href="#"
+                      ></a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <p class="team-name">mattew dix</p>
-            <p class="team-occupation">Graphic Design</p>
+            <p class="team-list__name">mattew dix</p>
+            <p class="team-list__occupation">Graphic Design</p>
           </li>
           <li class="team-list__item">
-            <div class="team-wrapper">
-              <div class="team-img">
+            <div class="team-list__wrapper">
+              <div class="team-list__wrapper-image">
                 <img
-                  class="team-wrapper-image"
+                  class="team-list__img"
                   src="./img/christopher.jpg"
                   alt="Christopher Campbell"
                   width="380"
                   height="470"
                 />
-                <div class="img-overlay">
+                <div class="team-list__overlay">
                   <ul class="social-list">
                     <li class="social-list__item">
-                      <a class="list-item__link icon-facebook" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--facebook"
+                        href="#"
+                      ></a>
                     </li>
                     <li class="social-list__item">
-                      <a class="list-item__link icon-twitter" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--twitter"
+                        href="#"
+                      ></a>
                     </li>
                     <li class="social-list__item">
-                      <a class="list-item__link icon-pinterest" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--pinterest"
+                        href="#"
+                      ></a>
                     </li>
                     <li class="social-list__item">
-                      <a class="list-item__link icon-instagram" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--instagram"
+                        href="#"
+                      ></a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <p class="team-name">christopher campbell</p>
-            <p class="team-occupation">Branding/UX design</p>
+            <p class="team-list__name">christopher campbell</p>
+            <p class="team-list__occupation">Branding/UX design</p>
           </li>
           <li class="team-list__item">
-            <div class="team-wrapper">
-              <div class="team-img">
+            <div class="team-list__wrapper">
+              <div class="team-list__wrapper-image">
                 <img
-                  class="team-wrapper-image"
+                  class="team-list__img"
                   src="./img/michael.jpg"
                   alt="Michael Fertig"
                   width="380"
                   height="470"
                 />
-                <div class="img-overlay">
+                <div class="team-list__overlay">
                   <ul class="social-list">
                     <li class="social-list__item">
-                      <a class="list-item__link icon-facebook" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--facebook"
+                        href="#"
+                      ></a>
                     </li>
                     <li class="social-list__item">
-                      <a class="list-item__link icon-twitter" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--twitter"
+                        href="#"
+                      ></a>
                     </li>
                     <li class="social-list__item">
-                      <a class="list-item__link icon-pinterest" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--pinterest"
+                        href="#"
+                      ></a>
                     </li>
                     <li class="social-list__item">
-                      <a class="list-item__link icon-instagram" href="#"></a>
+                      <a
+                        class="social-list__link social-list__link--instagram"
+                        href="#"
+                      ></a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <p class="team-name">michael fertig</p>
-            <p class="team-occupation">Developer</p>
+            <p class="team-list__name">michael fertig</p>
+            <p class="team-list__occupation">Developer</p>
           </li>
         </ul>
       </section>
