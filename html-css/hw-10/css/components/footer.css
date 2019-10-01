@@ -1,0 +1,122 @@
+.footer,
+.footer-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 62px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer__copyright,
+.footer-form__btn {
+  font-family: var(--semi-ff);
+  line-height: 1.2;
+}
+
+.footer__copyright {
+  font-weight: 400;
+  color: var(--title-color);
+}
+
+.footer__author {
+  color: var(--accent-color);
+  text-decoration: none;
+  -webkit-transition: color 200ms linear;
+  -o-transition: color 200ms linear;
+  transition: color 200ms linear;
+}
+
+.footer__author:hover,
+.footer__author:focus {
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
+.footer-form {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 378px;
+  flex: 0 0 378px;
+  min-height: 40px;
+}
+
+.footer-form__email,
+.footer-form__btn {
+  outline: none;
+}
+
+.footer-form__email {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 228px;
+  flex: 0 0 228px;
+  padding: 0 12px;
+  border: 1px solid #e7e7e7;
+  border-right: none;
+}
+
+.footer-form__email::-webkit-input-placeholder {
+  font-size: var(--semi-fz);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  color: #ccc;
+}
+.footer-form__email::-moz-placeholder {
+  font-size: var(--semi-fz);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  color: #ccc;
+}
+.footer-form__email:-ms-input-placeholder {
+  font-size: var(--semi-fz);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  color: #ccc;
+}
+.footer-form__email::-ms-input-placeholder {
+  font-size: var(--semi-fz);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  color: #ccc;
+}
+.footer-form__email::placeholder {
+  font-size: var(--semi-fz);
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  color: #ccc;
+}
+
+.footer-form__btn {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 150px;
+  flex: 0 0 150px;
+  padding: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--main-color);
+  border: none;
+  -webkit-transition: background-color 200ms linear;
+  -o-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+  cursor: pointer;
+}
+
+.footer-form__btn:hover,
+.footer-form__btn:focus {
+  background-color: var(--accent-color);
+}

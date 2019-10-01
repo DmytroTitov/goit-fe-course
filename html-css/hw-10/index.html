@@ -125,9 +125,10 @@
               <div class="team-list__wrapper-image">
                 <img
                   class="team-list__img"
+                  srcset="./img/matthew.jpg 380w, ./img/matthew@2x.jpg 760w"
+                  sizes="380px"
                   src="./img/matthew.jpg"
                   alt="Mattew Dix"
-                  width="380"
                   height="470"
                 />
                 <div class="team-list__overlay">
@@ -168,9 +169,13 @@
               <div class="team-list__wrapper-image">
                 <img
                   class="team-list__img"
+                  srcset="
+                    ./img/christopher.jpg    380w,
+                    ./img/christopher@2x.jpg 760w
+                  "
+                  sizes="380px"
                   src="./img/christopher.jpg"
                   alt="Christopher Campbell"
-                  width="380"
                   height="470"
                 />
                 <div class="team-list__overlay">
@@ -211,9 +216,10 @@
               <div class="team-list__wrapper-image">
                 <img
                   class="team-list__img"
+                  srcset="./img/michael.jpg 380w, ./img/michael@2x.jpg 760w"
+                  sizes="380px"
                   src="./img/michael.jpg"
                   alt="Michael Fertig"
-                  width="380"
                   height="470"
                 />
                 <div class="team-list__overlay">
@@ -252,21 +258,20 @@
         </ul>
       </section>
     </main>
-
     <!-- footer -->
     <footer class="footer container">
-      <p class="copyright">
+      <p class="footer__copyright">
         &copy; 2016 MoGo free PSD template by
-        <a href="#" class="author">Laaqiq</a>
+        <a href="#" class="footer__author">Laaqiq</a>
       </p>
       <form class="footer-form" action="#">
         <input
-          class="form-email"
+          class="footer-form__email"
           type="email"
           placeholder="Your Email..."
           required
         />
-        <button class="form-btn" type="submit">subscribe</button>
+        <button class="footer-form__btn" type="submit">subscribe</button>
       </form>
     </footer>
   </body>
