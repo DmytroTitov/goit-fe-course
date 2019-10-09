@@ -3,16 +3,13 @@
 */
 @import 'libs/fonts';
 @import 'helpers/variables';
-@import 'helpers/placeholders';
-@import 'helpers/mixins';
-@import 'helpers/extras';
 @import 'libs/normalize';
 @import 'libs/base';
 
 /* Components */
 @import 'components/container';
 @import 'components/sitehead';
-@import 'components/sitehead-banner.scss';
+@import 'components/sitehead-banner';
 @import 'components/services';
 @import 'components/team';
 @import 'components/footer';

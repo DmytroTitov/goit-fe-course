@@ -53,7 +53,7 @@
 .team-list__wrapper {
   position: relative;
   margin-bottom: 28px;
-  background-color: var(--main-color);
+  background-color: $main-color;
 }
 
 .team-list__wrapper-image,
@@ -76,10 +76,10 @@
   width: 100%;
   height: 100%;
   background: $gradient;
-}
 
-.social-list__item:not(:last-child) {
-  margin-right: 1px;
+  &__item:not(:last-child) {
+    margin-right: 1px;
+  }
 }
 
 .social-list__link {
@@ -102,23 +102,23 @@
 }
 
 .social-list__link--facebook::after {
-  background-image: url('../../img/icons/icons-sprite.svg#icon-facebook-view');
+  background-image: url('../images/sprite.svg#icon-facebook');
 }
 
 .social-list__link--twitter::after {
-  background-image: url('../../img/icons/icons-sprite.svg#icon-twitter-view');
+  background-image: url('../images/sprite.svg#icon-twitter');
 }
 
 .social-list__link--pinterest::after {
-  background-image: url('../../img/icons/icons-sprite.svg#icon-pinterest-view');
+  background-image: url('../images/sprite.svg#icon-pinterest-view');
 }
 
 .social-list__link--instagram::after {
-  background-image: url('../../img/icons/icons-sprite.svg#icon-instagram-view');
+  background-image: url('../images/sprite.svg#icon-instagram-view');
 }
 
 .social-list__item:hover .social-list__link--facebook::after {
-  background-image: url('../../img/icons/icons-sprite.svg#icon-facebook--white-view');
+  background-image: url('../images/sprite.svg#icon-facebook--white-view');
 }
 
 .social-list__item:hover .social-list__link--twitter::after {
