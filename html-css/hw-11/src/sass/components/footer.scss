@@ -1,0 +1,78 @@
+.footer,
+.footer-form {
+  display: flex;
+}
+
+.footer {
+  justify-content: space-between;
+  align-items: center;
+  min-height: 62px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer__copyright,
+.footer-form__btn {
+  font-family: $semi-ff;
+  line-height: 1.2;
+}
+
+.footer__copyright {
+  font-weight: 400;
+  color: $title-color;
+}
+
+.footer__author {
+  color: $accent-color;
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+
+.footer__author:hover,
+.footer__author:focus {
+  color: $main-color;
+  text-decoration: underline;
+}
+
+.footer-form {
+  justify-content: flex-end;
+  flex: 0 0 378px;
+  min-height: 40px;
+}
+
+.footer-form__email,
+.footer-form__btn {
+  outline: none;
+}
+
+.footer-form__email {
+  flex: 0 0 228px;
+  padding: 0 12px;
+  border: 1px solid #e7e7e7;
+  border-right: none;
+}
+
+.footer-form__email::placeholder {
+  font-size: $semi-fz;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  color: #ccc;
+}
+
+.footer-form__btn {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 150px;
+  flex: 0 0 150px;
+  padding: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: $main-color;
+  border: none;
+  transition: background-color 200ms linear;
+  cursor: pointer;
+}
+
+.footer-form__btn:hover,
+.footer-form__btn:focus {
+  background-color: $accent-color;
+}
