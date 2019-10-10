@@ -1,4 +1,4 @@
 .sitehead-wrapper {
   margin-bottom: 48px;
-  @include bg-image("url('../images/eagle-bg.jpg')");
+  @include bg-image($path: '../images/eagle-bg.jpg');
 }
