@@ -3,13 +3,23 @@
 */
 @import 'libs/fonts';
 @import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/placeholders';
 @import 'libs/normalize';
 @import 'libs/base';
 
 /* Components */
 @import 'components/container';
-@import 'components/sitehead';
+@import 'components/sitehead-wrapper';
+@import 'components/sitehead-overlay';
+@import 'components/sitehead-header';
+@import 'components/sitehead-logo';
+@import 'components/sitehead-nav';
 @import 'components/sitehead-banner';
 @import 'components/services';
+@import 'components/services-list';
 @import 'components/team';
+@import 'components/team-list';
+@import 'components/social-list';
 @import 'components/footer';
+@import 'components/footer-form';

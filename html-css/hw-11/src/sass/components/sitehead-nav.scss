@@ -1,0 +1,70 @@
+.sitehead-nav__list {
+  @include flex-direction('sb-end');
+}
+
+.sitehead-nav {
+  display: flex;
+  padding-bottom: 3px;
+}
+
+.sitehead-nav__list {
+  min-width: 618px;
+  padding: 0;
+  list-style: none;
+}
+
+.sitehead-nav__link {
+  position: relative;
+  font-family: $semi-ff;
+  font-weight: 400;
+  line-height: 1.2;
+  color: $light-color;
+  @extend %link;
+  text-transform: uppercase;
+  transition: color 200ms linear;
+
+  &::after {
+    position: absolute;
+    @include pseudo($display: none);
+    width: 100%;
+    height: 3px;
+    margin-top: 9px;
+    background-color: $hallmark-color;
+  }
+
+  &:hover,
+  &:focus {
+    color: $hallmark-color;
+  }
+}
+
+.sitehead-nav__btn {
+  @include flex-direction('center');
+  background: none;
+  @extend %button;
+}
+
+.sitehead-nav__btn--cart,
+.sitehead-nav__btn--glass {
+  width: 18px;
+  fill: $light-color;
+  transition: all 200ms linear;
+}
+
+.sitehead-nav__btn--cart {
+  height: 15px;
+
+  &:hover,
+  &:focus {
+    fill: $hallmark-color;
+  }
+}
+
+.sitehead-nav__btn--glass {
+  height: 18px;
+
+  &:hover,
+  &:focus {
+    fill: $hallmark-color;
+  }
+}

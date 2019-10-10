@@ -1,0 +1,42 @@
+.footer-form {
+  @include flex-direction('end');
+  flex: 0 0 378px;
+  min-height: 40px;
+}
+
+.footer-form__email,
+.footer-form__btn {
+  outline: none;
+}
+
+.footer-form__email {
+  flex: 0 0 228px;
+  padding: 0 12px;
+  border: 1px solid #e7e7e7;
+  border-right: none;
+}
+
+.footer-form__email::placeholder {
+  font-size: $semi-fz;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 24px;
+  color: #ccc;
+}
+
+.footer-form__btn {
+  flex: 0 0 150px;
+  padding: 0;
+  font-family: $semi-ff;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  background-color: $main-color;
+  @extend %button;
+  transition: background-color 200ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}

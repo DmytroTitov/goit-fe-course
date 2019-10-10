@@ -29,12 +29,8 @@ img {
 .sitehead-nav__link:focus::after,
 .services__title--break,
 .team__title--break,
-.services-list__item::before,
-.services__title--break::after,
-.team__title--break::after,
 .team-list__item:hover .team-list__overlay,
-.social-list__link,
-.social-list__link::after {
+.social-list__link {
   display: block;
 }
 

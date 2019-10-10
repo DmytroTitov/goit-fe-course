@@ -1,0 +1,7 @@
+.sitehead-logo {
+  margin-left: 2px;
+  font-family: $semi-ff;
+  font-size: 30px;
+  font-weight: 700;
+  @extend %text;
+}
